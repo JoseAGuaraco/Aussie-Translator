@@ -42,14 +42,23 @@ h4 {
   margin-top: 0px;
 }
 
+h5 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 25pt;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 1440px;
 }
-
-map {}
 
 div#Oz_map {
   width: 1440px;
@@ -80,7 +89,36 @@ div.begin_button {
 
 a {
   color: green;
+}
 
+span.AusButton {
+  display: inline-block;
+  width: 50%;
+}
+
+span.USAButton {
+  display: inline-block;
+  width: 49%;
+}
+
+span.AusFlag {
+  display: inline-block;
+  width: 20%;
+  margin-top: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+span.USAFlag {
+  display: inline-block;
+  width: 20%;
+  margin-top: 5%;
+  margin-right: 14%;
+  margin-left: 15%;
+}
+
+div.splash_title {
+  margin-top: 10%;
 }
 
 @keyframes DISSOLVE_IN {
